@@ -1,0 +1,128 @@
+#pageone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    max-height: 100%;
+}
+
+#mainHeader {
+    height: 6%;
+    max-height: 6%;
+}
+
+#mainBody {
+    height: 87%;
+    max-height: 87%;
+}
+
+.blackBackground {
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: 30;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.arrowBox {
+	width: 75%;
+	margin: auto;
+}
+
+.arrow-up {
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid red;
+}
+
+.arrow-left {
+	width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid yellow;
+    float: left;
+    display: inline-block;
+}
+
+.arrow-right {
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid green;
+    float: right;
+    display: inline-block;
+}
+
+.arrow-down {
+	clear: both;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid blue;
+    margin: auto;
+}
+
+.validateAnswer, .validateAnswer2 {
+    position: relative; 
+}
+
+.correctButton, .correctButton2, .wrongButton, .wrongButton2 {
+    position: absolute; 
+}
+
+.hideCorrectButton, .hideCorrectButton2, .hideWrongButton, .hideWrongButton2 {
+    display: none;
+}
+
+#correctButton, #correctButton2 {
+    background-color: #33CC33;
+    margin-top: 4px;
+    z-index: 10;
+}
+
+#wrongButton, #wrongButton2 {
+    background-color: #FF3300;
+    margin-top: 4px;
+    z-index: 10;
+}
+
+.rowBreak {
+    position: relative;
+    display: block;
+    height: 50px;
+}
+
+#submitButton2 {
+    margin-top: 20px;
+}
+
+#submitButton, #submitButton2 {
+    margin-bottom: 0px;
+}
+
+.successKey {
+    position: absolute;
+    top: 25%;
+    z-index: 40;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}

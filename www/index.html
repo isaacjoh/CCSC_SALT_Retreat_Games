@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0">
+
+		<!-- jQuery + jQuery mobile -->
+		<script type="text/javascript" src="./js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="./js/fixJQueryError.js"></script>
+		<script type="text/javascript" src="./jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+
+		<!-- in public/css folder -->
+		<link rel="stylesheet" type="text/css" href="./css/animate.css">
+		<link rel="stylesheet" type="text/css" href="./css/code.css">
+
+		<!-- in js folder -->
+		<script type="text/javascript" src="./js/checkFirstRiddle.js"></script>
+		<script type="text/javascript" src="./js/checkSecondRiddle.js"></script>
+
+		<title>CCSC SALT</title>
+	</head>
+	<body>
+		<div data-role="page" id="pageone">
+
+			<div data-role="header" id="mainHeader">
+				<h1>CCSC SALT</h1>
+			</div>
+
+			<div data-role="main" id="mainBody" class="ui-content">
+				<div class="successKey hide">
+					<img src="./img/gold_key.jpg" alt="GOLD KEY">
+				</div>
+				<h3>Riddle 1:</h3>
+				<form class="submitClass">
+					<input id="riddle1input" type="text" name="riddle1input">
+					<button id="submitButton" class="">Submit</button>
+				</form>
+				<div class="validateAnswer">
+					<button id="correctButton" class="correctButton hideCorrectButton">Success!</button>
+					<button id="wrongButton" class="wrongButton hideWrongButton">Fail!</button>
+				</div>
+				<div class="rowBreak"></div>
+				<br>
+				<h3>Riddle 2:</h3>
+				<div class="arrowBox">
+					<div class="arrow-up"></div>
+					<div class="arrow-left"></div>
+					<div class="arrow-right"></div>
+					<div class="arrow-down"></div>
+				</div>
+				<div>
+					<button id="submitButton2" class="">Submit</button>
+				</div>
+				<div class="validateAnswer2">
+					<button id="correctButton2" class="correctButton2 hideCorrectButton2">Success!</button>
+					<button id="wrongButton2" class="wrongButton2 hideWrongButton2">Fail!</button>
+				</div>
+			</div>
+
+			<div class="blackBackground hide">
+			</div>
+
+		</div> 
+	</body>
+</html>
