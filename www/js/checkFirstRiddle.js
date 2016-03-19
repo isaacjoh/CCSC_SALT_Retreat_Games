@@ -8,7 +8,7 @@ $(document).ready(function(){
 		if (thisInput === ""){
 			return false;
 		}
-		else if (thisInput === "andrew"){
+		else if (thisInput === "timemachine" || thisInput === "time machine"){
 			$(".wrongButton").addClass("hideWrongButton");
 			$(".correctButton").removeClass("hideCorrectButton");
 			if (!$(".correctButton").hasClass("hideCorrectButton") && !$(".correctButton2").hasClass("hideCorrectButton2")){
@@ -22,7 +22,6 @@ $(document).ready(function(){
 			$(".wrongButton").removeClass("hideWrongButton");
 			return false;
 		}
-
 	};
 
 });

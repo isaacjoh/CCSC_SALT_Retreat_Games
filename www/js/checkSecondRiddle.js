@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var riddle2Counter = 0; 
-	var riddle2Answer = "NSSWE";
+	var riddle2Answer = "NENWS";
 	var riddle2Guess = ""; 
 	$(".arrow-up").on("click", directionCounterUp);
 	$(".arrow-down").on("click", directionCounterDown);
